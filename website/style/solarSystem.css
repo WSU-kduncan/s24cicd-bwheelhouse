@@ -1,0 +1,44 @@
+
+.canvas {
+    position: absolute;
+    top: 84px;
+    bottom: 0;
+    left: 0;
+    width: 1374px;
+}
+
+#sun {
+    border-radius: 50%;
+}
+
+#mercury {
+    border-radius: 50%;
+}
+
+#venus {
+    border-radius: 50%;
+}
+
+#earth {
+    border-radius: 50%;
+}
+
+#mars {
+    border-radius: 50%;
+}
+
+#jupiter {
+    border-radius: 50%;
+}
+
+#saturn {
+    border-radius: 50%;
+}
+
+#uranus {
+    border-radius: 50%;
+}
+
+#neptune {
+    border-radius: 50%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/solarSystem.css">
+    <script src="scripts/script.js"></script>
+    <script src="scripts/solarSystem.js"></script>
+</head>
+
+<body class="body">
+    <div class="body__container">
+        <nav class="sidebar">
+            <ul class="sidebar__list">
+                <li class="list-item">
+                    <a class="list-item__docs" href="index.html">Animate</a>
+                </li>
+                <li class="list-item">
+                    <button class="list-item--button" onclick="stop()">Slower</button>
+                </li>
+                <li class="list-item">
+                    <button class="list-item--button" onclick="start()">Faster</button>
+                </li>
+                <li class="list-item">
+                    <button class="list-item--button" onclick="solarSystem()">Solar System</button>
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            <header class="banner">
+                <h1 class="banner__name">Animations</h1>
+            </header>
+            <div class="canvas" id="canvas">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
