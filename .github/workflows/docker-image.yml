@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: bwheels00/3120-prject4:3120-project4
+          tags: bwheels00/3120-project4:project4-GitHub-Action
