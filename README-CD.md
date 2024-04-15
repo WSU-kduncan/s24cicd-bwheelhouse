@@ -1,9 +1,9 @@
 - CD Project Overview
-  -
+  - Better utilize version control by implementing github tags.
 - How to generate a `tag` in `git` / GitHub
-  -
+  - Create a new realese and specify a tag following semantic versioning.
 - Behavior of GitHub workflow
   - what does it do
-  - when
+    - YML file that provides a set of instructions to be run after an event (scheduled, manula, commit, tags)
 - Link to Docker Hub repository (as additional proof)
-  -  
+  -  [DockerHub](https://hub.docker.com/repository/docker/bwheels00/3120-project4/general)
