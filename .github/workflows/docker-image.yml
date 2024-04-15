@@ -25,6 +25,7 @@ jobs:
           images: |
             bwheels00/3120-project4
           tags: |
+            type=ref,event=tag
             type=ref,event=branch
             type=ref,event=pr
             type=semver,pattern={{version}}
