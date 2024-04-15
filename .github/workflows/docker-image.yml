@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -
-        name: CHeckout
+        name: Checkout
         uses: actions/checkout@v4
       -
         name: Docker meta
