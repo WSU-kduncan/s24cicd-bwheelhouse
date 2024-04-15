@@ -23,7 +23,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            name/app
+            bwheels00/3120-project4
           tags: |
             type=ref,event=branch
             type=ref,event=pr
