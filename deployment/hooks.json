@@ -1,0 +1,8 @@
+[
+    {
+      "id": "webserver",
+      "execute-command": "~/dockerscript.sh",
+      "command-working-directory": "~/",
+      "response-message": "Redeploying API server."
+    }
+]
